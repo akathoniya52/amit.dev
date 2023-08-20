@@ -1,0 +1,25 @@
+.projects {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  gap: 50px;
+}
+
+.p-name {
+  display: flex;
+  justify-content: center;
+}
+
+.p:hover {
+  color: #fecd42;
+}
+
+iframe {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 100%;
+  }
+}

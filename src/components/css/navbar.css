@@ -1,0 +1,33 @@
+nav {
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 10px thin black;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.nav-2 {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-3 {
+  grid-column: 3;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #fecd42;
+}
+
+@media (max-width: 768px) {
+  .nav-2 {
+    display: none;
+  }
+}
